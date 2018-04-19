@@ -1,6 +1,6 @@
-计算从 $(0, 0)$ 点到 $(n,n)$ 点的不穿过直线 $y = x$ 的非降路径数。
+计算从 $$(0, 0)$$ 点到 $(n,n)$ 点的不穿过直线 $y = x$ 的非降路径数。
 
-首先我们有$$\binom{r}{r}+\binom{r+1}{r}+\cdots+\binom{n}{r}=\binom{n+1}{r+1}$$
+首先我们有 $$\binom{r}{r}+\binom{r+1}{r}+\cdots+\binom{n}{r}=\binom{n+1}{r+1}$$
 
 令从点 $(0,0)$ 到点 $(i,j) $ 的路径数为 $a[i,j]$，先考虑右下三角形 $(i > j)$，与左上三角形 $(i < j)$ 对称， 则有$$a[i,j]=\left\{\begin{array}{cc} 
 		a[i-1,j]+a[i,j-1], & i>j\ge1\\ 
