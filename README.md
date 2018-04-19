@@ -12,4 +12,4 @@
 	于是有 $a[n,n]=\binom{2n-1}{n}-\binom{2n-1}{n-2}=\frac{(2n-1)
 	!}{n!(n-1)!}-\frac{(2n-1)!}{(n-2)!(n+1)!}=\frac{(2n-1)!}{(n-2)!n!}(\frac{1}{n-1}+\frac{1}{n+1})=\frac{(2n)!}{n!n!(n+1)}=\binom{2n}{n}\frac{1}{n+1}$
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=ax^{2}&space;&plus;&space;by^{2}&space;&plus;&space;c&space;=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?ax^{2}&space;&plus;&space;by^{2}&space;&plus;&space;c&space;=&space;0" title="ax^{2} + by^{2} + c = 0" /></a>
+<img src="https://latex.codecogs.com/gif.latex?ax^{2}&space;&plus;&space;by^{2}&space;&plus;&space;c&space;=&space;0" title="ax^{2} + by^{2} + c = 0" />
