@@ -1,7 +1,5 @@
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
-计算从 $$(0, 0)$$ 点到 $(n,n)$ 点的不穿过直线 $y = x$ 的非降路径数。
+计算从 <a href="https://www.codecogs.com/eqnedit.php?latex=$$(0,&space;0)$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$(0,&space;0)$$" title="$$(0, 0)$$" /></a> 
+点到 $(n,n)$ 点的不穿过直线 $y = x$ 的非降路径数。
 	ax^{2} + by^{2} + c = 0
 首先我们有 $$\binom{r}{r}+\binom{r+1}{r}+\cdots+\binom{n}{r}=\binom{n+1}{r+1}$$
 
