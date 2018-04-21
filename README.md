@@ -1,6 +1,6 @@
 计算从 <a href="https://www.codecogs.com/eqnedit.php?latex=$$(0,&space;0)$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$(0,&space;0)$$" title="$$(0, 0)$$" /></a> 
-点到 <img src="https://latex.codecogs.com/gif.latex?(n,n)" title="(n,n)" /> 点的不穿过直线 <img src="https://latex.codecogs.com/gif.latex?y&space;=&space;x" title="y = x" /> 的非降路径数。<br>
-首先我们有 <br>
+点到 <img src="https://latex.codecogs.com/gif.latex?(n,n)" title="(n,n)" /> 点的不穿过直线 <img src="https://latex.codecogs.com/gif.latex?y&space;=&space;x" title="y = x" /> 的非降路径数<br>
+>>首先我们有 <br>
 	<img src="https://latex.codecogs.com/gif.latex?\binom{r}{r}&plus;\binom{r&plus;1}{r}&plus;\cdots&plus;\binom{n}{r}=\binom{n&plus;1}{r&plus;1}" title="\binom{r}{r}+\binom{r+1}{r}+\cdots+\binom{n}{r}=\binom{n+1}{r+1}" /><br>
 
 令从点 <img src="https://latex.codecogs.com/gif.latex?(0,0)" title="(0,0)" /> 到点 <img src="https://latex.codecogs.com/gif.latex?(i,j)" title="(i,j)" />  的路径数为 <img src="https://latex.codecogs.com/gif.latex?a[i,j]" title="a[i,j]" />，先考虑右下三角形 <img src="https://latex.codecogs.com/gif.latex?(i&space;>&space;j)" title="(i > j)" />，与左上三角形 <img src="https://latex.codecogs.com/gif.latex?(i&space;<&space;j)" title="(i < j)" /> 对称， 则有 <img src="https://latex.codecogs.com/gif.latex?a[i,j]=\left\{\begin{array}{cc}&space;a[i-1,j]&plus;a[i,j-1],&space;&&space;i>j\ge1\\&space;a[i,j-1],&space;&&space;i=j&space;\\&space;1,&space;&&space;j&space;=&space;0&space;\end{array}\right." title="a[i,j]=\left\{\begin{array}{cc} a[i-1,j]+a[i,j-1], & i>j\ge1\\ a[i,j-1], & i=j \\ 1, & j = 0 \end{array}\right." /><br>
